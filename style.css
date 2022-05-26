@@ -1,0 +1,67 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+--Light-gray:hsl(212, 45%, 89%);
+--Grayish-blue: hsl(220, 15%, 55%);
+--Dark-blue: hsl(218, 44%, 22%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--Light-gray)
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.frame{
+    width: 320px;
+    background-color: var(--White);
+    border-radius: 21px;
+    
+    
+    
+}
+
+#QR{
+    width: 100%;
+    border-radius:26px;
+    padding: 17px;
+
+}
+
+.frame h2{
+    padding: 2px  2px;
+    font-family: outfit;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    margin: 0px 20px;
+}
+
+.frame p{
+    font-family: outfit;
+    font-weight: 400;
+    color: var(--Grayish-blue);
+    text-align: center;
+    
+    font-size: 15px;
+    padding: 0 28px;
+    padding-top: 10px;
+    padding-bottom: 32px;
+}
+    
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a {color: hsl(228, 45%, 44%); }
+    
+    
